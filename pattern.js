@@ -7,8 +7,18 @@ let n = 5;
 //   console.log();
 // }
 
+// for (let i = 0; i < n; i++) {
+//   for (let j = n; j > i; j--) {
+//     process.stdout.write("*");
+//   }
+//   console.log();
+// }
+
 for (let i = 0; i < n; i++) {
   for (let j = n; j > i; j--) {
+    process.stdout.write(" ");
+  }
+  for (let k = 0; k <= i; k++) {
     process.stdout.write("*");
   }
   console.log();
