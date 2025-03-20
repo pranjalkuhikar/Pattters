@@ -92,6 +92,7 @@ let n = 5;
 //   console.log();
 // }
 
+// Question: Print a pyramid pattern of stars.
 // Output:
 // *
 // **
@@ -149,6 +150,17 @@ let n = 5;
 //   console.log();
 // }
 
+// Question: Print a diamond pattern of stars.
+// Output:
+//     *
+//    * *
+//   * * *
+//  * * * *
+// * * * * *
+//  * * * *
+//   * * *
+//    * *
+//     *
 // for (let i = 0; i < n; i++) {
 //   for (let j = n; j > i; j--) {
 //     process.stdout.write(" ");
@@ -231,3 +243,5 @@ let n = 5;
 //   }
 //   console.log();
 // }
+
+for (let i = 0; i < n; i++) {}
